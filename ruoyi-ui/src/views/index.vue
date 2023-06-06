@@ -616,7 +616,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4 col-sm-12">
                         <div class="team-box">
                             <div class="team_img">
@@ -769,11 +769,11 @@
 		data() {
 			return {
 				pictures: [             //轮播图
-					{src: "./static/picture/slideshow1.png",alt: "一带一路",index: "0",ref: "picture"},
+					{src: "./static/picture/slideshow1.jpg",alt: "一带一路 ",index: "0",ref: "picture"},
 					{src: "./static/picture/slideshow2.jpg",alt: "汽车",index: "1",ref: "picture"},
-					{src: "./static/picture/slideshow3.jpg",alt: "茶叶",index: "2",ref: "picture"},
-					{src: "./static/picture/slideshow4.jpg",alt: "黄山",index: "3",ref: "picture"},
-					{src: "./static/picture/slideshow5.jpg",alt: "电子",index: "4",ref: "picture"},
+					{src: "./static/picture/slideshow6.jpg",alt: "茶叶",index: "2",ref: "picture"},
+					{src: "./static/picture/slideshow5.jpg",alt: "黄山",index: "3",ref: "picture"},
+					{src: "./static/picture/slideshow4.jpg",alt: "电子",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
 				mouseEnter: false,      //鼠标是否悬浮在整个区域上

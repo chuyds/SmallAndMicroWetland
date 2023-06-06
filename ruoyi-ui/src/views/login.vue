@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">安徽省优势产能云服务推荐系统</h3>
+      <h3 class="title">智慧数字农业监控系统</h3>
       <el-form-item prop="username">
         <el-input
           v-model="loginForm.username"
@@ -56,7 +56,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>安徽省优势产能云服务推荐系统v1.0</span>
+      <span>智慧数字农业监控系统v1.0</span>
     </div>
   </div>
 </template>
