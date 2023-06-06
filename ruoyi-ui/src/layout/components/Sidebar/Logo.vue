@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '安徽省优势产能云服务推荐',
+      title: '智慧数字农业检测平台',
       logo: logoImg
     }
   }
