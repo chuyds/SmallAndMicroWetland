@@ -42,31 +42,31 @@
               <el-row :gutter="350" style="margin-top: 10px;">
                 <el-col :span="6">
                   <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度</span>
+                    <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   36°</span>
                   </el-card>
 
-                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                    <h6><span>智慧农场环境数据2</span></h6>
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t3.png" class="tt"><span style="padding-left: 10px;">光照强度   100000Lux</span>
                   </el-card>
 
-                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                    <h6><span>智慧农场环境数据3</span></h6>
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t5.png" class="tt"><span style="padding-left: 10px;">H2S浓度   0.0001ppm</span>
                   </el-card>
 
                   </el-col>
 
 
                   <el-col :span="6">
-                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                      <h6><span>智慧农场环境数据4</span></h6>
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t2.png" class="tt"><span style="padding-left: 10px;">空气湿度   32</span>
                   </el-card>
 
-                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                    <h6><span>智慧农场环境数据5</span></h6>
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t4.png" class="tt"><span style="padding-left: 10px;">CO2浓度   0.04%</span>
                   </el-card>
 
-                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                    <h6><span>智慧农场环境数据6</span></h6>
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t6.png" class="tt"><span style="padding-left: 10px;">NH3浓度   0.0001%</span>
                   </el-card>
                 </el-col>
 
