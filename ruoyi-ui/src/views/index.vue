@@ -22,68 +22,75 @@
     </div>
 
     <main>
-          <!-- organic food section -->
-        <section class="about-section">
+      <!-- organic food section -->
+      <section class="about-section">
 
-<el-row :gutter="20">
+      <el-row :gutter="20">
 
-        <el-col :span="12">
-          <el-card style="height: 650px">
-              <div slot="header" class="clearfix">
-                 <h6><span>智慧农业设备分布与状态</span></h6>
-               </div>
-               <img src="./static/picture/map.png" class="map_image">
-          </el-card>
-        </el-col>
-        <el-col :span="12">
-          <el-card style="height: 650px">
-              <h6><span>智慧农业环境数据</span></h6>
+              <el-col :span="12">
+                <el-card style="height: 650px">
+                    <div slot="header" class="clearfix">
+                       <h6><span>智慧农业设备分布与状态</span></h6>
+                     </div>
+                     <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
+      <!--              <div class='mapDiv'>
+                       <baidu-map class='bm-view' @ready='mapInit'></baidu-map>
+                    </div> -->
 
-              <el-row :gutter="350" style="margin-top: 10px;">
-                <el-col :span="6">
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   36°</span>
-                  </el-card>
+                </el-card>
+              </el-col>
 
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t3.png" class="tt"><span style="padding-left: 10px;">光照强度   100000Lux</span>
-                  </el-card>
+              <el-col :span="12">
+                <el-card style="height: 650px">
+                    <h6><span>智慧农业环境数据</span></h6>
 
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t5.png" class="tt"><span style="padding-left: 10px;">H2S浓度   0.0001ppm</span>
-                  </el-card>
+                    <el-row :gutter="350" style="margin-top: 10px;">
+                      <el-col :span="6">
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度</span>
+                        </el-card>
 
-                  </el-col>
+                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                          <h6><span>智慧农场环境数据2</span></h6>
+                        </el-card>
 
+                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                          <h6><span>智慧农场环境数据3</span></h6>
+                        </el-card>
 
-                  <el-col :span="6">
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t2.png" class="tt"><span style="padding-left: 10px;">空气湿度   32</span>
-                  </el-card>
-
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t4.png" class="tt"><span style="padding-left: 10px;">CO2浓度   0.04%</span>
-                  </el-card>
-
-                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                    <img src="./static/image/t6.png" class="tt"><span style="padding-left: 10px;">NH3浓度   0.0001%</span>
-                  </el-card>
-                </el-col>
-
-              </el-row>
-
-          </el-card>
-        </el-col>
-
-</el-row>
+                        </el-col>
 
 
+                        <el-col :span="6">
+                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                            <h6><span>智慧农场环境数据4</span></h6>
+                        </el-card>
 
+                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                          <h6><span>智慧农场环境数据5</span></h6>
+                        </el-card>
 
-        </section>
+                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                          <h6><span>智慧农场环境数据6</span></h6>
+                        </el-card>
+                      </el-col>
 
+                    </el-row>
 
+                    <el-row>
+                      <el-col span="12">
+                        <div class="weather">
+                            <div id="he-plugin-standard"></div>
+                        </div>
+                      </el-col>
+                    </el-row>
 
+                </el-card>
+              </el-col>
+
+        </el-row>
+
+      </section>
         <!-- end food section -->
 
         <!-- service section -->
@@ -803,6 +810,21 @@
 
 <script>
 
+  window.WIDGET = {
+    "CONFIG": {
+      "layout": "1",
+      "width": "550",
+      "height": "250",
+      "background": "1",
+      "dataColor": "B6D7A8",
+      "borderRadius": "5",
+      "city": "CN101220307",
+      "key": "56e96ad05ac54bedbb93a70a4d28cfa9"
+    }
+  }
+
+  import { defineComponent, ref, reactive, toRefs, onMounted } from "vue";
+
 	export default {
 		data() {
 			return {
@@ -887,6 +909,13 @@
 	        this.$refs.myul.style.left = 0 + "px";
 
 	        this.$refs.cicle[0].style.background = "black";    //挂载时展示第一张图片，默认第一个圆圈被填充
+
+          // this.mapInit();
+
+          this.$nextTick(() => {
+              this.load()
+            });
+
 	    },
 
 	    methods: {
@@ -988,7 +1017,24 @@
                 this.gotoPicture(index,"last");
               }
 
-	        }
+	        },
+
+          load() {
+              const s = document.createElement('script')
+              s.type = 'text/javascript'
+              s.src =
+                'https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0'
+              document.body.appendChild(s)
+          },
+
+          mapInit({BMap, map}){
+              this.map = map
+              var point = new BMap.Point(118.385422, 31.288817)  //设置城市经纬度坐标
+              map.centerAndZoom(point, 15)    //
+              map.setCurrentCity('芜湖')   // 设置地图显示的城市 此项是必须设置的
+              map.enableScrollWheelZoom(true)    //鼠标滚动缩放
+
+          }
 	    }
 	};
 
@@ -1151,4 +1197,19 @@
   a:hover {
     color: deepskyblue;
   }
+
+ // .mapDiv {
+ //   width: 500px; height: 500px;
+ //  }
+
+  #map {
+    width: 100%;
+    height: 550px;
+  }
+
+  .weather {
+    width: 550px;
+    height: 100%;
+  }
+
 </style>

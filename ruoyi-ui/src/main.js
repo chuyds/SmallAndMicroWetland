@@ -40,6 +40,10 @@ import DictData from '@/components/DictData'
 // jquery
 import 'jquery'
 
+import BaiduMap from 'vue-baidu-map'
+
+Vue.use( BaiduMap, { ak : 'oOWf1GkwSh96GibZRt1vmFFM5T5b9Nh9' } )
+
 // 全局方法挂载
 Vue.prototype.getDicts = getDicts
 Vue.prototype.getConfigKey = getConfigKey
