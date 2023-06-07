@@ -47,33 +47,34 @@
                     <el-row :gutter="350" style="margin-top: 10px;">
                       <el-col :span="6">
                         <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度</span>
+                          <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度   36°</span>
                         </el-card>
 
-                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                          <h6><span>智慧农场环境数据2</span></h6>
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t3.png" class="tt"><span style="padding-left: 10px;">光照强度   100000Lux</span>
                         </el-card>
 
-                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                          <h6><span>智慧农场环境数据3</span></h6>
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t5.png" class="tt"><span style="padding-left: 10px;">H2S浓度   0.0001ppm</span>
                         </el-card>
 
                         </el-col>
 
 
                         <el-col :span="6">
-                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                            <h6><span>智慧农场环境数据4</span></h6>
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t2.png" class="tt"><span style="padding-left: 10px;">空气湿度   32</span>
                         </el-card>
 
-                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                          <h6><span>智慧农场环境数据5</span></h6>
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t4.png" class="tt"><span style="padding-left: 10px;">CO2浓度   0.04%</span>
                         </el-card>
 
-                        <el-card style="height: 70px; width: 300px;margin-top: 15px;">
-                          <h6><span>智慧农场环境数据6</span></h6>
+                        <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                          <img src="./static/image/t6.png" class="tt"><span style="padding-left: 10px;">NH3浓度   0.0001%</span>
                         </el-card>
                       </el-col>
+
 
                     </el-row>
 
@@ -113,8 +114,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="base-header">
-                            <small>安徽省高新产业</small>
-                            <h3>智能化汽车</h3>
+                            <small>智慧数字农业</small>
+                            <h3>智能化云平台</h3>
                         </div>
                     </div>
                 </div>
@@ -123,15 +124,16 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="https://n.sinaimg.cn/sinakd20210712ac/675/w1300h975/20210712/9841-19c837894d876f75e41c662d91c62f0c.jpg" alt="service">
+                                    <img src="./static/image/s1.jpg" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>2023年全新一代瑞虎3x</h4>
+                                    <h4>智慧感知为农业赋能</h4>
                                 </a>
-                                <p>以“真诚”为约，奇瑞与淄博开启一场双向奔赴。“三好国民车”奇瑞全新一代瑞虎3x于山东淄博“人间烟火之夜”焕新上市。
-                                瑞虎3x以引领时尚风潮的新感官设计带来全新外观设计，整体车身动线更加流畅和动感，尾部的一体贯穿式尾灯如画龙点睛，勾勒出整车风尚之感。</p>
+                                <p>利用现代技术手段，如物联网、人工智能等，对农业生产过程中的土壤、气象、
+                                植物等进行监测和数据分析，实现精准农业、智慧农业的生产方式。智慧农业监控系统包括了物联网终端设备与
+                                图像识别模型，实现农业现场采集数据的显示、控制操作等</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -140,15 +142,15 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="https://img4.cheshi-img.com/202111/10/nuih2hpr3m.png" alt="service">
+                                    <img src="./static/image/s2.jpg" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>强力混动新能源瑞虎7 PLUS</h4>
+                                    <h4>智慧农业监控平台</h4>
                                 </a>
-                                <p>奇瑞强动力电混SUV 瑞虎7 PLUS 新能源以“最科技化、最国际化、最用户化”的跃迁式全新展台形象强势登陆2023上海国际车展。
-                                作为奇瑞汽车旗下首款搭载8155智慧生态平台的车型，以24.6吋曲面沉浸式环绕屏，与更符合人体工学结构打造的环抱式座舱设计相得益彰。</p>
+                                <p>智慧农业监控平台应用物联网技术,对农业温室大棚环境等进行全面感知，可通过手机、平板、计算机实时获取温室大棚内部的空气温湿度、
+                                二氧化碳浓度、光照强度等信息，在云业务管理平台上，实时监测温室大棚内环境参数的变化和农业作物培育、种植、生长状况等</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -157,14 +159,14 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="https://p26.toutiaoimg.com/origin/tos-cn-i-qvj2lq49k0/f7d441f331554e9ab6cfb4e4ab98c58b?from=pc" alt="" srcset="">
+                                    <img src="./static/image/s3.jpg" alt="" srcset="">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>高能低耗瑞虎8 PRO新能源</h4>
+                                    <h4>全方位物联网改造</h4>
                                 </a>
-                                <p>2023年奇瑞推出全新“强动力5+2座电混SUV”——瑞虎8 PRO新能源汽车，“高能和低耗”要兼得，才是出行最优解。瑞虎8 PRO新能源搭载了混合动力专用1.5T超效发动机+双电机的动力组合，系统综合功率240kW，远超合资主流车型，百公里加速只需7.2秒。</p>
+                                <p>通过利用物联网技术与Web服务对农业生产环节中涉及到的各种农业相关信息方面进行智能监测和数据分析，从而实现对农业全产业链的实时追踪和管理。这一方法可以提高农业生产效益，减少资源浪费，促进农业可持续发展。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
