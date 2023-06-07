@@ -24,28 +24,66 @@
     <main>
           <!-- organic food section -->
         <section class="about-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-md-12 ">
-                        <div class="organic-food">
-                            <img src="https://ts1.cn.mm.bing.net/th/id/R-C.a59e279aaaa5220a995ef601c9b965d8?rik=61Whez3BUEfHfw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20210109ac%2f172%2fw1653h919%2f20210109%2f11e8-khmyntz8981549.jpg&ehk=g%2bk%2fE7ntPbG2NGweE7dw3K2dYrYwY0DU1dMLx2r4T%2fI%3d&risl=&pid=ImgRaw&r=0" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-md-12 ">
-                        <div class=" base_header_left">
-                            <small>Welcome To NIO ET7</small>
-                            <h3>LEAD THE CHANGE</h3>
-                        </div>
-                        <div class="about_item">
-                            <h4>智能电动旗舰轿车</h4>
-                            <p>蔚来ET7是蔚来汽车的旗舰电动轿车型号，ET7是一款豪华电动轿车，注重舒适性、性能和智能化技术。在动力方面，ET7搭载了一种电动驱动系统，提供强大的性能。ET7还引入了一系列先进的智能技术。
-                            它配备了蔚来的第二代车载超级计算机，具备高级驾驶辅助功能，如自动驾驶、智能语音控制和自动泊车等。</p>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
+<el-row :gutter="20">
+
+        <el-col :span="12">
+          <el-card style="height: 650px">
+              <div slot="header" class="clearfix">
+                 <h6><span>智慧农业设备分布与状态</span></h6>
+               </div>
+               <img src="./static/picture/map.png" class="map_image">
+          </el-card>
+        </el-col>
+        <el-col :span="12">
+          <el-card style="height: 650px">
+              <h6><span>智慧农业环境数据</span></h6>
+
+              <el-row :gutter="350" style="margin-top: 10px;">
+                <el-col :span="6">
+                  <el-card style="height: 70px; width: 300px; margin-top: 15px;">
+                    <img src="./static/image/t1.png" class="tt"><span style="padding-left: 10px;">空气温度</span>
+                  </el-card>
+
+                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                    <h6><span>智慧农场环境数据2</span></h6>
+                  </el-card>
+
+                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                    <h6><span>智慧农场环境数据3</span></h6>
+                  </el-card>
+
+                  </el-col>
+
+
+                  <el-col :span="6">
+                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                      <h6><span>智慧农场环境数据4</span></h6>
+                  </el-card>
+
+                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                    <h6><span>智慧农场环境数据5</span></h6>
+                  </el-card>
+
+                  <el-card style="height: 70px; width: 300px;margin-top: 15px;">
+                    <h6><span>智慧农场环境数据6</span></h6>
+                  </el-card>
+                </el-col>
+
+              </el-row>
+
+          </el-card>
+        </el-col>
+
+</el-row>
+
+
+
+
         </section>
+
+
+
         <!-- end food section -->
 
         <!-- service section -->
@@ -991,6 +1029,21 @@
   // .slider-text{
   //   opacity: 1;
   // }
+
+.tt {
+  max-width: 30px;
+  height: auto;
+}
+
+.map_image {
+  height: 600px;
+
+}
+
+.box-card {
+    width: 50%;
+    margin-left:25px;
+  }
 
   .el-row {
     margin-bottom: 20px;
