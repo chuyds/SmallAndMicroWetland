@@ -39,6 +39,10 @@ import VueMeta from 'vue-meta'
 import DictData from '@/components/DictData'
 // jquery
 import 'jquery'
+import $ from "jquery";
+
+import "swiper/swiper.min.css"
+
 
 // import BaiduMap from 'vue-baidu-map'
 

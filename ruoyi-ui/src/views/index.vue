@@ -33,10 +33,6 @@
                        <h6><span>智慧农业设备分布与状态</span></h6>
                      </div>
                      <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
-      <!--              <div class='mapDiv'>
-                       <baidu-map class='bm-view' @ready='mapInit'></baidu-map>
-                    </div> -->
-
                 </el-card>
               </el-col>
 
@@ -79,7 +75,7 @@
                     </el-row>
 
                     <el-row>
-                      <el-col span="12">
+                      <el-col :span="12">
                         <div class="weather">
                             <div id="he-plugin-standard"></div>
                         </div>
@@ -94,22 +90,10 @@
       </section>
         <!-- end food section -->
 
+      <iframe id="sliderLink" src="slider.html" width="100%" scrolling="no"></iframe>
+
         <!-- service section -->
         <section class="service-section">
-<!--            <div class="animate_icon">
-                <div class="animate_item animate_item1">
-                    <img src="static/picture/animate_icon1.png" alt="">
-                </div>
-                <div class="animate_item animate_item2">
-                    <img src="static/picture/animate_icon2.png" alt="">
-                </div>
-                <div class="animate_item animate_item3">
-                    <img src="static/picture/animate_icon3.png" alt="">
-                </div>
-                <div class="animate_item animate_item4">
-                    <img src="static/picture/animate_icon4.png" alt="">
-                </div>
-            </div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -248,228 +232,6 @@
         </section>
         <!-- end service section -->
 
-        <!-- video section -->
-        <section class="video-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="video_wrp">
-                            <p>奇瑞2022</p>
-                            <h2>2022年奇瑞汽车销售情况喜人<br> 成为25年来最佳</h2>
-                        </div>
-                        <div class="funfact_wapr row">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="facts_wrapper">
-                                    <div class="icon-lay"><i class="icon-glyph-142"></i></div>
-                                    <h3 class="stat-count count">80+</h3>
-                                    <h5>出口国家数</h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="facts_wrapper">
-                                    <div class="icon-lay"><i class="icon-glyph-226"></i></div>
-                                    <h3 class="stat-count count">45+</h3>
-                                    <h5>出口量（单位：万） </h5>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="facts_wrapper">
-                                    <div class="icon-lay"><i class="icon-glyph-2"></i></div>
-                                    <h3 class="stat-count count">123+</h3>
-                                    <h5>总销售量（单位：万） </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end video section -->
-
-        <!-- product section -->
-        <section class="product-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="base-header">
-                            <small>构建全场景智能出行体系 </small>
-                            <h3>奇瑞致力打造智能汽车新生态</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <div class="testimonial-item">
-                            <div class="inner-item">
-                                <a href="javascript:void(0)" class="product-img">
-                                    <img src="https://img.chery.cn/mall/item5.18/2023051815443961127977.png" alt="">
-                                </a>
-                                <div class="product_info">
-                                    <h4> 全新一代瑞虎3x </h4>
-                                    <span>☆</span>
-                                    <br>
-                                    <span class="product_price">采用复合材料车身设计并配备有多项智能科技。</span>
-                                </div>
-                                <!-- 弹出购物车小图标 -->
-<!--                                <div class="product-action">
-                                    <div class="product-action-inner">
-                                        <div class="product-action-item">
-                                            <a href="shopping-cart.html"><i class="icon-glyph-13"></i></a>
-                                        </div>
-                                        <div class="product-action-item">
-                                            <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="testimonial-item">
-                            <div class="inner-item">
-                                <a href="javascript:void(0)" class="product-img">
-                                    <img src="https://img.chery.cn/mall/item7%E6%9C%88%E7%A7%AF%E5%88%86%E5%95%86%E5%9F%8E%E4%B8%8A%E6%96%B0%E4%BA%A7%E5%93%81/2022070115221850846284.png" alt="">
-                                </a>
-                                <div class="product_info">
-                                    <h4>瑞虎8PLUS 鲲鹏版</h4>
-                                    <span>☆</span>
-                                    <br>
-                                    <span class="product_price">采用领先的鲲鹏芯片技术，搭载华为鸿蒙OS操作系统。</span>
-                                </div>
-<!--                                <div class="product-action">
-                                    <div class="product-action-inner">
-                                        <div class="product-action-item">
-                                            <a href="shopping-cart.html"><i class="icon-glyph-13"></i></a>
-                                        </div>
-                                        <div class="product-action-item">
-                                            <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="testimonial-item">
-                            <div class="inner-item">
-                                <a href="javascript:void(0)" class="product-img">
-                                    <img src="https://img.chery.cn/mall/item2023%E6%AC%BE%E7%91%9E%E8%99%8E5x/%E5%A4%B4%E5%9B%BE/2023042720570198593116.png" alt="">
-                                </a>
-                                <div class="product_info">
-                                    <h4>2023款 瑞虎5x</h4>
-                                    <span>☆</span>
-                                    <br>
-                                    <span class="product_price">搭载全新的1.5T涡轮增压发动机，并配备ACC,AEB等智能科技。</span>
-                                </div>
-<!--                                <div class="product-action">
-                                    <div class="product-action-inner">
-                                        <div class="product-action-item">
-                                            <a href="shopping-cart.html"><i class="icon-glyph-13"></i></a>
-                                        </div>
-                                        <div class="product-action-item">
-                                            <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="testimonial-item">
-                            <div class="inner-item">
-                                <a href="javascript:void(0)" class="product-img">
-                                    <img src="https://img.chery.cn/mall/item%E7%91%9E%E8%99%8E9/2023022720300118815673.png" alt="">
-                                </a>
-                                <div class="product_info">
-                                    <h4> 瑞虎9 </h4>
-                                    <span>☆</span>
-                                    <br>
-                                    <span class="product_price">豪华SUV流畅动感，搭载高性能发动机，采用智能科技配置。</span>
-                                </div>
-<!--                                <div class="product-action">
-                                    <div class="product-action-inner">
-                                        <div class="product-action-item">
-                                            <a href="shopping-cart.html"><i class="icon-glyph-13"></i></a>
-                                        </div>
-                                        <div class="product-action-item">
-                                            <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                        </div>
-                                    </div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end product section -->
-
-
-        <!-- process section -->
-<!--        <section class="process-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="base-header">
-                            <small>产业优势</small>
-                            <h3>为什么要选择我们</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <div class="process-item">
-                            <div class="img_process"><img src="../../public/static/picture/process_1.png" alt=""><span>01</span>
-                                <div class="angle_icon"><img src="static/picture/shape1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="process_text">
-                                <h4>服务</h4>
-                                <p>我们有着更优质的服务</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="process-item">
-                            <div class="img_process"><img src="../../public/static/picture/process_2.png" alt=""><span>02</span>
-                                <div class="angle_icon"><img src="static/picture/shape2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="process_text">
-                                <h4>价格</h4>
-                                <p>我们有着更优惠的价格</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="process-item">
-                            <div class="img_process"><img src="../../public/static/picture/process_3.png" alt=""><span>03</span>
-                                <div class="angle_icon"><img src="static/picture/shape1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="process_text">
-                                <h4>质量</h4>
-                                <p>我们产品的质量经过了市场的检验</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <div class="process-item">
-                            <div class="img_process"><img src="../../public/static/picture/process_4.png" alt=""><span>04</span>
-                                <div class="angle_icon"><img src="static/picture/shape2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="process_text">
-                                <h4>体验</h4>
-                                <p>我们的产品可以给您带来舒适的体验</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- end process section -->
-
         <br><br><br>
         <!-- whychose section -->
         <section class="whychose-section">
@@ -501,89 +263,6 @@
             </div>
         </section>
         <!-- end whychose section -->
-
-        <!-- project section -->
- <!--       <section class="project-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="base-header">
-                            <small>Our Latest Product</small>
-                            <h3>Special Gallery</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="projects">
-                <div class="container-fluid">
-                    <div class="slides-3 swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide event-item d-flex flex-column justify-content-end">
-                                <div class="slider-img">
-                                    <img src="static/picture/work-1.jpg" alt="" class="project-img">
-                                    <div class="project_text">
-                                        <h4><a href="shop-detail.html">Juicy Grapes</a></h4><a class="project_link" href="shop-detail.html">View
-                                            details >></a>
-                                    </div>
-                                    <div class="project-data">
-                                        <div class="project-action-inner">
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-26"></i></a>
-                                            </div>
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide event-item d-flex flex-column justify-content-end">
-                                <div class="slider-img">
-                                    <img src="static/picture/work-2.jpg" alt="">
-                                    <div class="project_text">
-                                        <h4><a href="shop-detail.html">Juicy Grapes</a></h4><a class="project_link" href="shop-detail.html">View
-                                            details >></a>
-                                    </div>
-                                    <div class="project-data">
-                                        <div class="project-action-inner">
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-26"></i></a>
-                                            </div>
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide event-item d-flex flex-column justify-content-end">
-                                <div class="slider-img">
-                                    <img src="static/picture/work-3.jpg" alt="">
-                                    <div class="project_text">
-                                        <h4><a href="shop-detail.html">Juicy Grapes</a></h4><a class="project_link" href="shop-detail.html">View
-                                            details >></a>
-                                    </div>
-                                    <div class="project-data">
-                                        <div class="project-action-inner">
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-26"></i></a>
-                                            </div>
-                                            <div class="project-action-item">
-                                                <a href="404-notfound.html"><i class="icon-glyph-52"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="gallery-page.html" class="more-link">View More</a>
-            </div>
-        </section> -->
-        <!--end project section -->
 
         <!-- team section -->
         <section class="team-section">
@@ -682,7 +361,7 @@
         <!-- end team section -->
 
         <!-- blog section -->
-  <!--      <section class="blog-section">
+       <section class="blog-section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
@@ -745,7 +424,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- end blog section -->
 
         <!-- footer section -->
@@ -811,6 +490,16 @@
 </template>
 
 <script>
+  // script linked
+  // import './static/js/swiper-bundle.min.js';
+  // import './static/js/bootstrap-icons.json';
+  // import './static/js/jquery-3.6.0.min.js';
+  // import './static/js/bootstrap.min.js';
+  // import './static/js/custom.js';
+  import './static/js/jquery.magnific-popup.js';
+  import Swiper from 'swiper';
+  import "swiper/swiper.min.css"
+  // import 'swiper/dist/css/swiper.min.css'
 
   window.WIDGET = {
     "CONFIG": {
@@ -826,6 +515,7 @@
   }
 
   import { defineComponent, ref, reactive, toRefs, onMounted } from "vue";
+  import $ from 'jquery';
 
 	export default {
 		data() {
@@ -849,23 +539,6 @@
 
 
 		watch: {
-			// mouseEnter: {                           //鼠标移入区域，图片切换停止，离开则继续
-			// 	immediate: true,
-			// 	handler(newval, oldval) {           //使其在页面一上来就能执行
-			// 		if (!newval) {
-			// 			this.$mytimer = setInterval(() => {
-			// 				if (this.pictureShowing < this.pictures.length-1) {
-			// 					this.pictureShowing++;
-			// 				} else {
-			// 					this.pictureShowing = 0;
-			// 				}
-			// 				this.changeDefault(this.speed);
-			// 			}, 1000);
-			// 		} else {
-			// 			clearInterval(this.$mytimer);
-			// 		}
-			// 	},
-			// },
 
       offsetWidth(){        //当轮播图宽度改变时
         this.$refs.myul.style.left=0+"px";      //回到第一张图片
@@ -891,34 +564,54 @@
       }
     },
 
-	    mounted() {
+    created() {
 
-          let timer = setInterval(() => {           //每0.5秒更新topNav和offsetWidth
-              this.topNav = this.$store.state.settings.topNav;
-              this.offsetWidth = this.getOffsetWidth();     //动态获取轮播图宽度
-          },500);
+    },
 
-          // if(this.$route.path != "index"){
-          //   clearInterval(timer);
-          // }
+    mounted() {
 
+        let timer = setInterval(() => {           //每0.5秒更新topNav和offsetWidth
+            this.topNav = this.$store.state.settings.topNav;
+            this.offsetWidth = this.getOffsetWidth();     //动态获取轮播图宽度
+        },500);
 
-	        let li_0 = this.$refs[`picture`][0];
-	        let li_end = li_0.cloneNode(true);
-	        this.$refs.myul.appendChild(li_end);            //克隆第一张图片，加到ul最后展示的位置
+        let li_0 = this.$refs[`picture`][0];
+        let li_end = li_0.cloneNode(true);
+        this.$refs.myul.appendChild(li_end);            //克隆第一张图片，加到ul最后展示的位置
 
-	        this.$refs.myul.style.position = "absolute";
-	        this.$refs.myul.style.left = 0 + "px";
+        this.$refs.myul.style.position = "absolute";
+        this.$refs.myul.style.left = 0 + "px";
 
-	        this.$refs.cicle[0].style.background = "black";    //挂载时展示第一张图片，默认第一个圆圈被填充
+        this.$refs.cicle[0].style.background = "black";    //挂载时展示第一张图片，默认第一个圆圈被填充
 
-          // this.mapInit();
+        this.$nextTick(() => {
+            this.load();
+        });
 
-          this.$nextTick(() => {
-              this.load()
-            });
+        // this.$nextTick(() => {
+        //     new Swiper ('.swiper', {
+        //         slidesPerView: 2,
+        //         spaceBetween: 20,
+        //         //设置自动播放
+        //         autoplay: true,
+        //         loop: true,
+        //         // speed: 1000,
+        //         // slidesOffsetBefore : 50,
+        //         // slidesOffsetAfter : 50,
+        //         notNextTick: true,
+        //         observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        //         observeParents:true,//修改swiper的父元素时，自动初始化swiper
+        //         // // 如果需要分页器
+        //         // pagination: '.swiper-pagination',
+        //         // // 如果需要前进后退按钮
+        //         // nextButton: '.swiper-button-next',
+        //         // prevButton: '.swiper-button-prev',
+        //         // // 如果需要滚动条
+        //         // scrollbar: '.swiper-scrollbar',
+        //       });
+        // });
 
-	    },
+    },
 
 	    methods: {
           getOffsetWidth(){
@@ -1040,52 +733,20 @@
 	    }
 	};
 
-
 </script>
 
-<!-- script linked  -->
-<!-- <script src="../../public/static/js/swiper-bundle.min.js"></script>
-<script src="../../public/static/js/bootstrap-icons.json"></script>
-<script src="../../public/static/js/jquery-3.6.0.min.js"></script>
-<script src="../../public/static/js/bootstrap.min.js"></script>
-<script src="../../public/static/js/custom.js"></script>
-<script src="../../public/static/js/jquery.magnific-popup.js"></script> -->
-<!-- <script>
-  // import '../../public/static/js/jquery.magnific-popup.js'
-
-    $(function() {
-        $('.play_btn').magnificPopup({
-            disableOn: 700,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
-    });
-</script> -->
-
-
 <style lang="scss" scoped>
-  @import '../../public/static/css/magnific-popup.css';
-  @import '../../public/static/css/custom-icons.css';
-  @import '../../public/static/css/swiper-bundle.min.css';
-  @import '../../public/static/css/boxicons.min.css';
-  @import '../../public/static/css/bootstrap-icons.css';
-  @import '../../public/static/css/bootstrap.min.css';
-  @import '../../public/static/css/style.css';
-  // .slider-text{
-  //   opacity: 1;
-  // }
+  @import './static/css/magnific-popup.css';
+  @import './static/css/custom-icons.css';
+  @import './static/css/swiper-bundle.min.css';
+  @import './static/css/boxicons.min.css';
+  @import './static/css/bootstrap-icons.css';
+  @import './static/css/bootstrap.min.css';
+  @import './static/css/style.css';
 
 .tt {
   max-width: 30px;
   height: auto;
-}
-
-.map_image {
-  height: 600px;
-
 }
 
 .box-card {
@@ -1209,9 +870,9 @@
     height: 550px;
   }
 
-  .weather {
-    width: 550px;
-    height: 100%;
+  #sliderLink {
+    width: 100%;
+    height: 500px;
   }
 
 </style>
