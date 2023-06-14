@@ -70,7 +70,7 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/index'),
         name: 'Index',
-        meta: { title: '智慧农业', icon: 'dashboard2', affix: true }
+        meta: { title: '小微湿地', icon: 'dashboard2', affix: true }
       }
     ]
   },

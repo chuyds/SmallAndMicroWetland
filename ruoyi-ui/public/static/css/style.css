@@ -2403,15 +2403,15 @@ p {
 .footer-section {
   width: 100%;
   padding: 100px 0 0;
-  color: #ffffff;
-  background: #2b343b;
+  color: black;
+  background: rgb(246, 246, 246);
 }
 
 .subfooter {
   width: 100%;
-  padding: 35px 0;
-  margin-top: 85px;
-  background: #252d32;
+  padding: 15px 0;
+  margin-top: 55px;
+  background: rgb(241, 246, 250);
 }
 .subfooter p {
   color: #acaba9;
@@ -2431,7 +2431,7 @@ p {
 .footer-col-1 p {
   font-size: 15px;
   line-height: 28px;
-  color: #d5d5d5;
+  color: black;
   margin-bottom: 20px;
   margin-top: 15px;
 }
@@ -2447,7 +2447,7 @@ p {
 }
 
 .widget-title {
-  color: #ffffff;
+  color: black;
   text-transform: capitalize;
   letter-spacing: 0;
   font-size: 22px;

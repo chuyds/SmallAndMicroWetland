@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '智慧数字农业检测平台',
+      title: '小微湿地管理系统',
       logo: logoImg
     }
   }

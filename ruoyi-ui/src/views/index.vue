@@ -30,7 +30,7 @@
               <el-col :span="12">
                 <el-card style="height: 650px">
                     <div slot="header" class="clearfix">
-                       <h6><span>智慧农业设备分布与状态</span></h6>
+                       <h6><span>小微湿地位置分布</span></h6>
                      </div>
                      <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
                 </el-card>
@@ -38,7 +38,7 @@
 
               <el-col :span="12">
                 <el-card style="height: 650px">
-                    <h6><span>智慧农业环境数据</span></h6>
+                    <h6><span>小微湿地环境数据</span></h6>
 
                     <el-row :gutter="350" style="margin-top: 10px;">
                       <el-col :span="6">
@@ -90,6 +90,7 @@
       </section>
         <!-- end food section -->
 
+      <!-- 插入轮播 -->
       <iframe id="sliderLink" src="slider.html" width="100%" scrolling="no"></iframe>
 
         <!-- service section -->
@@ -157,7 +158,7 @@
                     </div>
                 </div>
             </div>
-
+<!--
             <br><br><br>
 
             <div class="container">
@@ -228,7 +229,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!-- end service section -->
 
@@ -264,102 +265,6 @@
         </section>
         <!-- end whychose section -->
 
-        <!-- team section -->
-        <section class="team-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="base-header">
-                            <small>企业云集</small>
-                            <h3>知名企业家</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo1.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>尹同跃</h4>
-                                <p>奇瑞汽车董事长</p>
-<!--                                <ul class="team_social">
-                                    <li><a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
-                                    </li>
-                                </ul> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo2.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>李斌</h4>
-                                <p>蔚来汽车董事长兼CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo3.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>梁金辉</h4>
-                                <p>古井集团董事长</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo2.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>李斌</h4>
-                                <p>蔚来汽车董事长兼CEO</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo2.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>李斌</h4>
-                                <p>蔚来汽车董事长兼CEO</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                        <div class="team-box">
-                            <div class="team_img">
-                                <img src="../../public/static/picture/head_logo2.png" alt="">
-                            </div>
-                            <div class="team_info">
-                                <h4>李斌</h4>
-                                <p>蔚来汽车董事长兼CEO</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- end team section -->
-
         <!-- blog section -->
        <section class="blog-section">
             <div class="container">
@@ -374,7 +279,7 @@
                                 <h4>How To Eat Organic Foods</h4>
                             </a>
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="blog_date"><span> <i class="bi bi-calendar"></i>6 Nov 2023</span></div>
+                                <div class="blog_date"><span> <i class="bi bi-calendar"></i>14 Jun 2023</span></div>
                                 <span class="blog_read"><a href="blog-detail.html">Read more</a><i class="icon-right-open"></i></span>
                             </div>
                         </div>
@@ -383,7 +288,7 @@
                                 <h4>How To Eat Organic Foods</h4>
                             </a>
                             <div class="d-flex align-items-center justify-content-between">
-                                <div class="blog_date"><span> <i class="bi bi-calendar"></i>6 Nov 2023</span></div>
+                                <div class="blog_date"><span> <i class="bi bi-calendar"></i>14 Jun 2023</span></div>
                                 <span class="blog_read"><a href="blog-detail.html">Read more</a><i class="icon-right-open"></i></span>
                             </div>
                         </div>
@@ -399,7 +304,7 @@
                                         </a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <div class="blog_date"><span> <i class="bi bi-calendar"></i>6 Nov 2023</span>
+                                        <div class="blog_date"><span> <i class="bi bi-calendar"></i>14 Jun 2023</span>
                                         </div>
                                         <span class="blog_read"><a href="blog-detail.html">Read more</a><i class="icon-right-open"></i></span>
                                     </div>
@@ -414,7 +319,7 @@
                                         </a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <div class="blog_date"><span> <i class="bi bi-calendar"></i>6 Nov 2023</span>
+                                        <div class="blog_date"><span> <i class="bi bi-calendar"></i>14 Jun 2023</span>
                                         </div>
                                         <span class="blog_read"><a href="blog-detail.html">Read more</a><i class="icon-right-open"></i></span>
                                     </div>
@@ -427,20 +332,121 @@
         </section>
         <!-- end blog section -->
 
+
+        <!-- team section -->
+        <section class="team-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="base-header">
+                            <small>了解我们</small>
+                            <h3>开发团队</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo1.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>于得水</h4>
+                                <p>奇瑞汽车董事长</p>
+<!--                                <ul class="team_social">
+                                    <li><a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo2.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>范祥祥</h4>
+                                <p>蔚来汽车董事长兼CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo3.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>许佳炜</h4>
+                                <p>古井集团董事长</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo3.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>宋世佳</h4>
+                                <p>蔚来汽车董事长兼CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo3.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>马唱</h4>
+                                <p>蔚来汽车董事长兼CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="team-box">
+                            <div class="team_img">
+                                <img src="static/picture/head_logo3.png" alt="">
+                            </div>
+                            <div class="team_info">
+                                <h4>谢凡</h4>
+                                <p>蔚来汽车董事长兼CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end team section -->
+
         <!-- footer section -->
         <footer class="footer-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-2 col-sm-6">
                         <div class="footer-col-1">
 <!--                            <div>
                                 <a href="javascript:void(0)"><img src="static/picture/footer_logo.png" alt="" class="footer-logo"></a>
                             </div> -->
                             <p style="font-size: 25px;margin-left: 20px;">
-                                安徽省优势产能云服务<br><br>推荐系统
+                                小微湿地管理<br><br>系统
                             </p>
                         </div>
                     </div>
+
+                    <!-- 竖线 -->
+                    <div class="vertical-line"></div>
+
                     <div class="col-lg-3 col-sm-12">
                         <div class="footer-col-2">
                             <h5 class="widget-title">关于我们</h5>
@@ -452,6 +458,9 @@
                         </div>
                     </div>
 
+                    <!-- 竖线 -->
+                    <div class="vertical-line"></div>
+
                     <div class="col-lg-3 col-sm-12">
                         <div class="footer-col-2">
                             <h5 class="widget-title">联系我们</h5>
@@ -462,6 +471,9 @@
                             <a href="javascript:void(0)">监督举报</a>
                         </div>
                     </div>
+
+                    <!-- 竖线 -->
+                    <div class="vertical-line"></div>
 
                     <div class="col-lg-3 col-sm-12">
                         <div class="footer-col-2">
@@ -478,7 +490,7 @@
                 </div>
             </div>
             <div class="subfooter">
-                <p>Copyright &copy; 安徽省优势产能云服务推荐系统开发团队版权所有</p>
+                <p>Copyright &copy; 小微湿地管理系统开发团队版权所有</p>
             </div>
         </footer>
         <!--end footer section -->
@@ -491,12 +503,12 @@
 
 <script>
   // script linked
-  // import './static/js/swiper-bundle.min.js';
-  // import './static/js/bootstrap-icons.json';
-  // import './static/js/jquery-3.6.0.min.js';
-  // import './static/js/bootstrap.min.js';
-  // import './static/js/custom.js';
-  import './static/js/jquery.magnific-popup.js';
+  // import '../../public/static/js/swiper-bundle.min.js';
+  // import '../../public/static/js/bootstrap-icons.json';
+  // import '../../public/static/js/jquery-3.6.0.min.js';
+  // import '../../public/static/js/bootstrap.min.js';
+  // import '../../public/static/js/custom.js';
+  import '../../public/static/js/jquery.magnific-popup.js';
   import Swiper from 'swiper';
   import "swiper/swiper.min.css"
   // import 'swiper/dist/css/swiper.min.css'
@@ -521,11 +533,11 @@
 		data() {
 			return {
 				pictures: [             //轮播图
-					{src: "./static/picture/slideshow1.jpg",alt: "一带一路 ",index: "0",ref: "picture"},
-					{src: "./static/picture/slideshow2.jpg",alt: "汽车",index: "1",ref: "picture"},
-					{src: "./static/picture/slideshow6.jpg",alt: "茶叶",index: "2",ref: "picture"},
-					{src: "./static/picture/slideshow5.jpg",alt: "黄山",index: "3",ref: "picture"},
-					{src: "./static/picture/slideshow4.jpg",alt: "电子",index: "4",ref: "picture"},
+					{src: "static/picture/slideshow1.jpg",alt: " ",index: "0",ref: "picture"},
+					{src: "static/picture/slideshow2.jpg",alt: "",index: "1",ref: "picture"},
+					{src: "static/picture/slideshow6.jpg",alt: "",index: "2",ref: "picture"},
+					{src: "static/picture/slideshow5.jpg",alt: "",index: "3",ref: "picture"},
+					{src: "static/picture/slideshow4.jpg",alt: "",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
 				mouseEnter: false,      //鼠标是否悬浮在整个区域上
@@ -736,13 +748,13 @@
 </script>
 
 <style lang="scss" scoped>
-  @import './static/css/magnific-popup.css';
-  @import './static/css/custom-icons.css';
-  @import './static/css/swiper-bundle.min.css';
-  @import './static/css/boxicons.min.css';
-  @import './static/css/bootstrap-icons.css';
-  @import './static/css/bootstrap.min.css';
-  @import './static/css/style.css';
+  @import '../../public/static/css/magnific-popup.css';
+  @import '../../public/static/css/custom-icons.css';
+  @import '../../public/static/css/swiper-bundle.min.css';
+  @import '../../public/static/css/boxicons.min.css';
+  @import '../../public/static/css/bootstrap-icons.css';
+  @import '../../public/static/css/bootstrap.min.css';
+  @import '../../public/static/css/style.css';
 
 .tt {
   max-width: 30px;
@@ -851,19 +863,16 @@
       margin-right: 5px;
   }
 
-  a {
-    color: white;
-    transition: all 0.3s;
-    text-decoration: none;
-  }
+  // a {
+  //   color: white;
+  //   transition: all 0.3s;
+  //   text-decoration: none;
+  // }
 
-  a:hover {
-    color: deepskyblue;
-  }
+  // a:hover {
+  //   color: deepskyblue;
+  // }
 
- // .mapDiv {
- //   width: 500px; height: 500px;
- //  }
 
   #map {
     width: 100%;
@@ -873,6 +882,15 @@
   #sliderLink {
     width: 100%;
     height: 500px;
+  }
+
+  .vertical-line {
+    width: 0;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+    display: inline-block;
   }
 
 </style>

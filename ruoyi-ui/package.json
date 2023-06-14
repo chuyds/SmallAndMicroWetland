@@ -1,7 +1,7 @@
 {
   "name": "ruoyi",
   "version": "3.8.5",
-  "description": "安徽省优势产能云服务推荐系统",
+  "description": "小微湿地管理系统",
   "author": "ahnu",
   "license": "MIT",
   "scripts": {
