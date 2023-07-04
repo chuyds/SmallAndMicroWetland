@@ -533,11 +533,11 @@
 		data() {
 			return {
 				pictures: [             //轮播图
-					{src: "static/picture/slideshow1.jpg",alt: " ",index: "0",ref: "picture"},
-					{src: "static/picture/slideshow2.jpg",alt: "",index: "1",ref: "picture"},
-					{src: "static/picture/slideshow6.jpg",alt: "",index: "2",ref: "picture"},
-					{src: "static/picture/slideshow5.jpg",alt: "",index: "3",ref: "picture"},
-					{src: "static/picture/slideshow4.jpg",alt: "",index: "4",ref: "picture"},
+					{src: "static/picture/slideshow1.png",alt: " ",index: "0",ref: "picture"},
+					{src: "static/picture/slideshow2.png",alt: "",index: "1",ref: "picture"},
+					{src: "static/picture/slideshow3.png",alt: "",index: "2",ref: "picture"},
+					{src: "static/picture/slideshow4.png",alt: "",index: "3",ref: "picture"},
+					{src: "static/picture/slideshow2.jpg",alt: "",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
 				mouseEnter: false,      //鼠标是否悬浮在整个区域上

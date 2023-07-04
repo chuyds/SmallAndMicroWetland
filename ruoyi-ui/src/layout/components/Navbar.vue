@@ -8,7 +8,7 @@
     <div class="right-menu">
       <template v-if="device!=='mobile'">
         <search id="header-search" class="right-menu-item" />
-<!--        
+<!--
         <el-tooltip content="源码地址" effect="dark" placement="bottom">
           <ruo-yi-git id="ruoyi-git" class="right-menu-item hover-effect" />
         </el-tooltip>
@@ -22,6 +22,16 @@
         <el-tooltip content="布局大小" effect="dark" placement="bottom">
           <size-select id="size-select" class="right-menu-item hover-effect" />
         </el-tooltip>
+
+        <el-dropdown trigger="click" @command="handleCommand" class="right-menu-item">
+          <span class="el-dropdown-link">
+            {{currentLanguage}}<i class="el-icon-arrow-down el-icon--right"></i>
+          </span>
+          <el-dropdown-menu slot="dropdown">
+            <el-dropdown-item command="中文">{{CN}}</el-dropdown-item>
+            <el-dropdown-item command="English">{{EN}}</el-dropdown-item>
+          </el-dropdown-menu>
+        </el-dropdown>
 
       </template>
 
@@ -58,6 +68,13 @@ import RuoYiGit from '@/components/RuoYi/Git'
 import RuoYiDoc from '@/components/RuoYi/Doc'
 
 export default {
+  data() {
+  	return {
+  		CN: '中文',
+      EN: 'English',
+      currentLanguage: '中文'
+  	};
+  },
   components: {
     Breadcrumb,
     TopNav,
@@ -105,6 +122,9 @@ export default {
           location.href = '/index';
         })
       }).catch(() => {});
+    },
+    handleCommand(command) {
+      this.currentLanguage = command;
     }
   }
 }

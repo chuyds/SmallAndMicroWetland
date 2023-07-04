@@ -4,6 +4,15 @@
     mode="horizontal"
     @select="handleSelect"
   >
+
+  <!-- 首页 -->
+    <template v-if="TopNav">
+      <el-menu-item :style="{'--theme': theme}" :index="indexPath" :key="index">
+        {{ indexTitle }}
+      </el-menu-item>
+    </template>
+
+    <!-- 其他菜单 -->
     <template v-for="(item, index) in topMenus">
       <el-menu-item :style="{'--theme': theme}" :index="item.path" :key="index" v-if="index < visibleNumber"
         ><svg-icon :icon-class="item.meta.icon" />
@@ -39,7 +48,13 @@ export default {
       // 顶部栏初始数
       visibleNumber: 5,
       // 当前激活菜单的 index
-      currentIndex: undefined
+      currentIndex: undefined,
+      //TopNav
+      TopNav: this.$store.state.settings.topNav,
+      //indexPath
+      indexPath: '/index',
+      //indexTitle
+      indexTitle: '首  页',
     };
   },
   computed: {
