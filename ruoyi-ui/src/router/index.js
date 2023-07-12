@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Index_EN from '../views/index_EN.vue'
 
 Vue.use(Router)
 
@@ -70,6 +71,17 @@ export const constantRoutes = [
         path: 'index',
         component: () => import('@/views/index'),
         name: 'Index',
+        meta: { title: '小微湿地', icon: 'dashboard2', affix: true }
+      }
+    ]
+  },
+  {
+    path: '',
+    component: Layout,
+    children: [
+      {
+        path: 'index_EN',
+        component: Index_EN,
         meta: { title: '小微湿地', icon: 'dashboard2', affix: true }
       }
     ]

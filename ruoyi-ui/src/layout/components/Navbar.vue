@@ -23,6 +23,7 @@
           <size-select id="size-select" class="right-menu-item hover-effect" />
         </el-tooltip>
 
+        <!-- 中英文选择 -->
         <el-dropdown trigger="click" @command="handleCommand" class="right-menu-item">
           <span class="el-dropdown-link">
             {{currentLanguage}}<i class="el-icon-arrow-down el-icon--right"></i>

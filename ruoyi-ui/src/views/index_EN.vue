@@ -30,7 +30,7 @@
               <el-col :span="12">
                 <el-card style="height: 650px">
                     <div slot="header" class="clearfix">
-                       <h6><span>小微湿地位置分布</span></h6>
+                       <h6><span>English View</span></h6>
                      </div>
                      <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
                 </el-card>
@@ -38,7 +38,7 @@
 
               <el-col :span="12">
                 <el-card style="height: 650px">
-                    <h6><span>小微湿地环境数据</span></h6>
+                    <h6><span>English View</span></h6>
 
                     <el-row :gutter="350" style="margin-top: 10px;">
                       <el-col :span="6">
