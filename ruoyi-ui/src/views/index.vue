@@ -90,6 +90,32 @@
       </section>
         <!-- end food section -->
 
+        <section class="about-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-12 ">
+                                <div class="organic-food">
+                                    <img src="static/picture/xwsd.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-md-12 ">
+                                <div class=" base_header_left">
+                                    <small>Small and micro wetlands</small>
+                                    <h3>小微湿地</h3>
+                                </div>
+                                <div class="about_item">
+                                    <h4>城市小微湿地</h4>
+                                    <p>小微湿地是指自然界在长期演变过程中形成的小型、微型湿地，乡村小微湿地多以塘田沟渠堰井溪等形态出现，
+                                    面积在8公顷以下。所形成的较稳定的小型湖泊、水库、坑塘、人工湿地以及宽度小于10米、长度在5公里以内的小
+                                    型河道、沟渠等，也都属于小微湿地。</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
       <!-- 插入轮播 -->
       <iframe id="sliderLink" src="slider.html" width="100%" scrolling="no"></iframe>
 
@@ -99,8 +125,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="base-header">
-                            <small>智慧数字农业</small>
-                            <h3>智能化云平台</h3>
+                            <small>小微湿地体系</small>
+                            <h3>小微湿地生态</h3>
                         </div>
                     </div>
                 </div>
@@ -109,16 +135,16 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="./static/image/s1.jpg" alt="service">
+                                    <img src="./static/image/s1.png" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>智慧感知为农业赋能</h4>
+                                    <h4>小微湿地环境分布</h4>
                                 </a>
-                                <p>利用现代技术手段，如物联网、人工智能等，对农业生产过程中的土壤、气象、
-                                植物等进行监测和数据分析，实现精准农业、智慧农业的生产方式。智慧农业监控系统包括了物联网终端设备与
-                                图像识别模型，实现农业现场采集数据的显示、控制操作等</p>
+                                <p>小微湿地的生态环境分布多样，水环境和陆地环境相互交织，
+                                共同构成了湿地生态系统的复杂结构。这种多样性提供了丰富的生境和资源，维持了湿地中丰富的生物多样性。同时，
+                                湿地的生态环境也受到人类干扰的影响，需要进行恰当的保护和管理。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -127,15 +153,14 @@
                         <div class="service-item">
                             <div class="img_serv">
                                 <a href="service-page.html">
-                                    <img src="./static/image/s2.jpg" alt="service">
+                                    <img src="./static/image/s2.png" alt="service">
                                 </a>
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>智慧农业监控平台</h4>
+                                    <h4>小微湿地中生产者与消费者</h4>
                                 </a>
-                                <p>智慧农业监控平台应用物联网技术,对农业温室大棚环境等进行全面感知，可通过手机、平板、计算机实时获取温室大棚内部的空气温湿度、
-                                二氧化碳浓度、光照强度等信息，在云业务管理平台上，实时监测温室大棚内环境参数的变化和农业作物培育、种植、生长状况等</p>
+                                <p>在小微湿地的生态系统中，存在着多种生产者和消费者，它们在食物链中扮演不同的角色。这些生产者和消费者相互作用，形成了小微湿地生态系统中的食物链和食物网，维持着能量的流动和物质循环。它们共同构建了湿地生态系统的平衡和稳定。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -149,9 +174,10 @@
                             </div>
                             <div class="service_text">
                                 <a href="service-page.html">
-                                    <h4>全方位物联网改造</h4>
+                                    <h4>小微湿地生物群</h4>
                                 </a>
-                                <p>通过利用物联网技术与Web服务对农业生产环节中涉及到的各种农业相关信息方面进行智能监测和数据分析，从而实现对农业全产业链的实时追踪和管理。这一方法可以提高农业生产效益，减少资源浪费，促进农业可持续发展。</p>
+                                <p>湿地的生态系统是一个高度复杂的生物群落，由许多不同的生物组成，并与环境相互作用。
+                                这些组成部分相互作用，构成了小微湿地的复杂生态系统。它们相互依存，实现食物链的循环和能量的流动。保护湿地的生态系统对于维护生物多样性和生态环境具有重要意义。</p>
                             </div>
                             <a class="serv_link" href="service-page.html"><i class="icon-glyph-40"></i></a>
                         </div>
@@ -334,6 +360,7 @@
 
 
         <!-- team section -->
+        <!--
         <section class="team-section">
             <div class="container">
                 <div class="row">
@@ -353,14 +380,6 @@
                             <div class="team_info">
                                 <h4>于得水</h4>
                                 <p>奇瑞汽车董事长</p>
-<!--                                <ul class="team_social">
-                                    <li><a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="bi bi-twitter"></i></a>
-                                    </li>
-                                    <li><a href="javascript:void(0)"><i class="bi bi-linkedin"></i></a>
-                                    </li>
-                                </ul> -->
                             </div>
                         </div>
                     </div>
@@ -427,6 +446,7 @@
                 </div>
             </div>
         </section>
+        -->
         <!-- end team section -->
 
         <!-- footer section -->
@@ -535,9 +555,9 @@
 				pictures: [             //轮播图
 					{src: "static/picture/slideshow1.png",alt: " ",index: "0",ref: "picture"},
 					{src: "static/picture/slideshow2.png",alt: "",index: "1",ref: "picture"},
-					{src: "static/picture/slideshow3.png",alt: "",index: "2",ref: "picture"},
-					{src: "static/picture/slideshow4.png",alt: "",index: "3",ref: "picture"},
-					{src: "static/picture/slideshow2.jpg",alt: "",index: "4",ref: "picture"},
+					{src: "static/picture/slideshow2.jpg",alt: "",index: "2",ref: "picture"},
+					{src: "static/picture/slideshow4.jpg",alt: "",index: "3",ref: "picture"},
+					{src: "static/picture/slideshow5.jpg",alt: "",index: "4",ref: "picture"},
 				],
         goods: [],              //产品列表
 				mouseEnter: false,      //鼠标是否悬浮在整个区域上
