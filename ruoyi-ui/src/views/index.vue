@@ -261,7 +261,7 @@
 
         <br><br><br>
         <!-- whychose section -->
-        <section class="whychose-section">
+<!--        <section class="whychose-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-sm-12">
@@ -288,7 +288,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- end whychose section -->
 
         <!-- blog section -->
@@ -458,8 +458,8 @@
 <!--                            <div>
                                 <a href="javascript:void(0)"><img src="static/picture/footer_logo.png" alt="" class="footer-logo"></a>
                             </div> -->
-                            <p style="font-size: 25px;margin-left: 20px;">
-                                小微湿地管理<br><br>系统
+                            <p style="font-size: 16px;margin-left: 20px;color: green;">
+                                基于增强现实技术的<br><br>城市小微湿地<br><br>检测系统
                             </p>
                         </div>
                     </div>
@@ -510,7 +510,7 @@
                 </div>
             </div>
             <div class="subfooter">
-                <p>Copyright &copy; 小微湿地管理系统开发团队版权所有</p>
+                <p>Copyright &copy; 系统开发团队版权所有</p>
             </div>
         </footer>
         <!--end footer section -->

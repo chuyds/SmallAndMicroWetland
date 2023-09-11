@@ -75,17 +75,17 @@ export const constantRoutes = [
       }
     ]
   },
-  {
-    path: '',
-    component: Layout,
-    children: [
-      {
-        path: 'index_EN',
-        component: Index_EN,
-        meta: { title: '小微湿地', icon: 'dashboard2', affix: true }
-      }
-    ]
-  },
+  // {
+  //   path: '',
+  //   component: Layout,
+  //   children: [
+  //     {
+  //       path: 'index_EN',
+  //       component: Index_EN,
+  //       meta: { title: '小微湿地', icon: 'dashboard2', affix: true }
+  //     }
+  //   ]
+  // },
   {
     path: '/user',
     component: Layout,

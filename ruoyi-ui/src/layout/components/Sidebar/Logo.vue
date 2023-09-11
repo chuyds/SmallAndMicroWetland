@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: '小微湿地管理系统',
+      title: '城市小微湿地检测与评价系统',
       logo: logoImg
     }
   }

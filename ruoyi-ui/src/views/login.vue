@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">城市小微湿地管理系统</h3>
+      <h3 class="title">基于增强现实技术的城市小微湿地检测与评价系统</h3>
       <el-form-item prop="username">
         <el-input
           v-model="loginForm.username"
@@ -56,7 +56,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>城市小微湿地管理系统v1.0</span>
+      <span>基于增强现实技术的城市小微湿地检测与评价系统v1.0</span>
     </div>
   </div>
 </template>

@@ -4,13 +4,15 @@ const path = require('path')
 // jQuery
 var webpack = require('webpack')
 
+var defaultLanguage = 'CN'
+
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
 const CompressionPlugin = require('compression-webpack-plugin')
 
-const name = process.env.VUE_APP_TITLE || '基于增强现实的小微湿地管理系统' // 网页标题
+const name = process.env.VUE_APP_TITLE || '基于增强现实技术的城市小微湿地检测与评价系统' // 网页标题
 
 const port = process.env.port || process.env.npm_config_port || 8000 // 端口
 
