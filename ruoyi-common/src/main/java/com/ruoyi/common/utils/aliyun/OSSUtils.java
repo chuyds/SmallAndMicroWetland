@@ -83,8 +83,8 @@ public class OSSUtils {
         // Region请按实际情况填写。
         String endpoint = "oss-cn-shanghai.aliyuncs.com";
         // STS临时访问密钥AccessKey ID和AccessKey Secret。
-        String accessKeyId = "LTAI5t8FqwUVzRkEKM5Lurdn";
-        String accessKeySecret = "R4R5ZDFXxXRT4phk5Kat7ybUShusfd";
+        String accessKeyId = "";
+        String accessKeySecret = "";
         // 使用代码嵌入的STS临时访问密钥和安全令牌配置访问凭证。
         CredentialsProvider credentialsProvider = new DefaultCredentialProvider(accessKeyId, accessKeySecret);
         // 填写Bucket名称，例如examplebucket。
