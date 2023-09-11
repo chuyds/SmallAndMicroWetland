@@ -33,6 +33,7 @@
                        <h6><span>小微湿地位置分布</span></h6>
                      </div>
                      <iframe id="map" src="map.html" width="100%" frameborder="0" scrolling="no"></iframe>
+                     <!-- <iframe id="map" src="output-3/index.html" width="100%" frameborder="0" scrolling="no"></iframe> -->
                 </el-card>
               </el-col>
 
@@ -51,7 +52,7 @@
                         </el-card>
 
                         <el-card style="height: 70px; width: 300px; margin-top: 15px;">
-                          <img src="static/image/t5.png" class="tt"><span style="padding-left: 10px;">H2S浓度   0.0001ppm</span>
+                          <img src="static/image/t5.png" class="tt"><span style="padding-left: 10px;">土地湿度   23</span>
                         </el-card>
 
                         </el-col>

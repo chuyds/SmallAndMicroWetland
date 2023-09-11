@@ -2,7 +2,7 @@ package com.ruoyi.common.enums;
 
 /**
  * 用户状态
- * 
+ *
  * @author ruoyi
  */
 public enum UserStatus
@@ -17,7 +17,7 @@ public enum UserStatus
         this.code = code;
         this.info = info;
     }
-
+//h核心算法
     public String getCode()
     {
         return code;
